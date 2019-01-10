@@ -50,7 +50,7 @@ module "jenkins" {
   root_volume_size = "200"
   root_volume_type = "standard"
 
-  github_oauth_token  = "c5f6813fb295e157ad107cbe0b24ab64d03a9038"
+  github_oauth_token  = ""
   github_organization = "ZeppelinOpz"
   github_repo_name    = "jenkins"
   github_branch       = "master"
