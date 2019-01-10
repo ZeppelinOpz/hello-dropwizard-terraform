@@ -1,0 +1,83 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: terraform-aws-elastic-beanstalk-environment
+
+# Tags of this project
+tags:
+  - aws
+  - terraform
+  - terraform-modules
+  - platform
+  - elastic-beanstalk
+  - elasticbeanstalk
+  - environment
+
+# Categories of this project
+categories:
+  - terraform-modules/platform
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: "APACHE2"
+
+# Canonical GitHub repo
+github_repo: cloudposse/terraform-aws-elastic-beanstalk-environment
+
+# Badges to display
+badges:
+  - name: "Build Status"
+    image: "https://travis-ci.org/cloudposse/terraform-aws-elastic-beanstalk-environment.svg?branch=master"
+    url: "https://travis-ci.org/cloudposse/terraform-aws-elastic-beanstalk-environment"
+  - name: "Latest Release"
+    image: "https://img.shields.io/github/release/cloudposse/terraform-aws-elastic-beanstalk-environment.svg"
+    url: "https://github.com/cloudposse/terraform-aws-elastic-beanstalk-environment/releases/latest"
+  - name: "Slack Community"
+    image: "https://slack.cloudposse.com/badge.svg"
+    url: "https://slack.cloudposse.com"
+
+related:
+  - name: "terraform-aws-jenkins"
+    description: "Terraform module to build Docker image with Jenkins, save it to an ECR repo, and deploy to Elastic Beanstalk running Docker stack"
+    url: "https://github.com/cloudposse/terraform-aws-jenkins"
+  - name: "terraform-aws-elastic-beanstalk-application"
+    description: "Terraform Module to define an ElasticBeanstalk Application"
+    url: "https://github.com/cloudposse/terraform-aws-elastic-beanstalk-application"
+  - name: "geodesic"
+    description: " Geodesic is the fastest way to get up and running with a rock solid, production grade cloud platform built on strictly Open Source tools."
+    url: "https://github.com/cloudposse/geodesic"
+  - name: "terraform-aws-elasticache-cloudwatch-sns-alarms"
+    description: " Terraform module that configures CloudWatch SNS alerts for ElastiCache"
+    url: "https://github.com/cloudposse/terraform-aws-elasticache-cloudwatch-sns-alarms"
+
+# Short description of this project
+description: |-
+  Terraform module to provision AWS Elastic Beanstalk environment
+
+usage: |-
+  Complete example: [examples/complete](examples/complete)
+
+include:
+  - "docs/targets.md"
+  - "docs/terraform.md"
+
+# Contributors to this project
+contributors:
+  - name: "Erik Osterman"
+    github: "osterman"
+  - name: "Igor Rodionov"
+    github: "goruha"
+  - name: "Andriy Knysh"
+    github: "aknysh"
+  - name: "Guillaume Delacour"
+    github: "guikcd"
+  - name: "Viktor Erpylev"
+    github: "velmoga"
+  - name: "Lucas Pearson"
+    github: "pearson-lucas-dev"
